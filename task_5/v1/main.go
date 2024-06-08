@@ -49,5 +49,3 @@ func main() {
 	wg.Wait()
 
 }
-
-// через time.After
