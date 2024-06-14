@@ -15,7 +15,6 @@ func (h Human) Speak() {
 	fmt.Printf("My name is %s\n", h.Name)
 }
 
-// Speak method for the Action struct, calls the Speak method of the Human struct
 func (a Action) Speak() {
 	a.Human.Speak()
 }
